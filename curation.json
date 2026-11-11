@@ -1,0 +1,240 @@
+{
+  "openai/gpt-6-astra": {
+    "ko": "OpenAI 최상위 모델. 복잡한 추론·코딩·컴퓨터 사용·리서치·문서 작업을 한 모델로 처리하려는 '만능 최상급'.",
+    "strengths": ["복잡한 다단계 추론", "컴퓨터 사용(화면 조작)", "긴 문서·리서치"],
+    "tasks": ["research", "agent", "writing"],
+    "caution": "입력 $10 / 출력 $50 (1M 토큰)로 가장 비싼 축. 짧은 작업엔 과함.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "openai/gpt-6.1-sol": {
+    "ko": "Astra에 근접한 성능을 절반 가격에. 복잡한 코딩·에이전트 작업의 실용적 주력.",
+    "strengths": ["코딩", "에이전트 워크플로", "가격 대비 성능"],
+    "tasks": ["coding", "agent"],
+    "caution": "최상위 추론이 필요한 난제는 Astra가 우위.",
+    "tier": "mid",
+    "pick": true
+  },
+  "openai/gpt-6.1-terra": {
+    "ko": "시각 추론·정밀한 컴퓨터 사용·자연스러운 문장에 특화된 빠른 모델.",
+    "strengths": ["화면·이미지 기반 작업", "컴퓨터 조작", "글쓰기"],
+    "tasks": ["vision", "agent", "writing"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "openai/gpt-6-luna": {
+    "ko": "OpenAI에서 가장 저렴하고 빠른 모델. 대량·반복 작업용.",
+    "strengths": ["초저가", "고속", "대량 처리"],
+    "tasks": ["cheap"],
+    "caution": "복잡한 추론·긴 에이전트 작업에는 부적합.",
+    "tier": "light"
+  },
+  "anthropic/claude-fable-5-1": {
+    "ko": "긴 호흡의 에이전트 작업과 까다로운 추론을 위한 Claude 최상위 계열. 창작·분석에도 강점.",
+    "strengths": ["장시간 자율 작업", "난도 높은 추론", "창작·분석"],
+    "tasks": ["agent", "writing", "research"],
+    "caution": "입력 $10 / 출력 $50. 일상 작업엔 Sonnet으로 충분한 경우가 많음.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "anthropic/claude-opus-5-5": {
+    "ko": "장시간 이어지는 에이전트형 코딩과 전문 지식 작업에 맞춘 Opus. Fable보다 저렴하면서 코딩에 강함.",
+    "strengths": ["에이전트 코딩", "장기 작업 일관성", "도구 사용"],
+    "tasks": ["coding", "agent"],
+    "caution": "창작·최난도 추론은 Fable 계열이 우위.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "anthropic/claude-sonnet-5-5": {
+    "ko": "일상 코딩·에이전트·지식 작업의 '가성비 주력'. Claude를 기본으로 쓸 때 가장 무난한 선택.",
+    "strengths": ["코딩", "에이전트", "균형 잡힌 가격"],
+    "tasks": ["coding", "agent", "writing"],
+    "caution": "",
+    "tier": "mid",
+    "pick": true
+  },
+  "anthropic/claude-haiku-5-5": {
+    "ko": "빠른 응답·분류·가벼운 에이전트용 소형 모델. Claude 계열에서 가장 저렴.",
+    "strengths": ["초저가", "저지연", "분류·요약"],
+    "tasks": ["cheap"],
+    "caution": "복잡한 코드·긴 추론에는 부적합.",
+    "tier": "light"
+  },
+  "google/gemini-4-argon": {
+    "ko": "구글 최상위 추론 모델. 대규모 소프트웨어 엔지니어링·수학·과학·장시간 자율 작업에 특화.",
+    "strengths": ["소프트웨어 엔지니어링", "수학·과학 추론", "장시간 자율 실행"],
+    "tasks": ["coding", "agent", "research"],
+    "caution": "출력 $10으로 저렴한 편은 아님.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "google/gemini-3.8-flash": {
+    "ko": "Flash 계열 최상급. 장시간 소프트웨어 작업과 자율 에이전트를 낮은 가격에.",
+    "strengths": ["가격 대비 성능", "에이전트", "멀티모달"],
+    "tasks": ["coding", "agent", "vision"],
+    "caution": "",
+    "tier": "mid",
+    "pick": true
+  },
+  "google/gemini-3.5-flash-lite": {
+    "ko": "멀티모달 추론·도구 사용·비용의 균형을 맞춘 초경량 모델.",
+    "strengths": ["초저가", "이미지·문서 처리", "대량 처리"],
+    "tasks": ["cheap", "vision"],
+    "caution": "",
+    "tier": "light"
+  },
+  "xai/grok-4.7": {
+    "ko": "xAI 최전선 모델. 장시간 에이전트·코딩·지식 작업·시각 프로젝트를 함께 노림.",
+    "strengths": ["에이전트", "코딩", "실시간 정보 결합(X 플랫폼)"],
+    "tasks": ["agent", "coding", "research"],
+    "caution": "컨텍스트 50만 토큰으로 경쟁 모델(100만)보다 짧음.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "xai/grok-4.6": {
+    "ko": "Grok-4.7의 직전 세대. 가격은 같고 최신 기능은 4.7이 우선.",
+    "strengths": ["에이전트", "코딩"],
+    "tasks": ["agent", "coding"],
+    "caution": "새 작업이면 4.7 권장.",
+    "tier": "mid"
+  },
+  "xai/grok-4.3": {
+    "ko": "100만 토큰 컨텍스트의 장문형 Grok. 환각 위험이 낮은 편으로 설명됨.",
+    "strengths": ["긴 문서", "채팅·코딩", "낮은 환각"],
+    "tasks": ["long", "writing"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "xai/grok-build-0.1": {
+    "ko": "에이전트형 엔지니어링과 반복 수정에 맞춘 빠른 코딩 전용 모델.",
+    "strengths": ["코딩", "반복 편집", "저지연"],
+    "tasks": ["coding"],
+    "caution": "범용 추론·문서 작업엔 부적합.",
+    "tier": "mid"
+  },
+  "meta/muse-wonder-1.0": {
+    "ko": "Meta의 최전선 멀티모달 추론 모델. 개인·업무용 에이전트와 장시간 작업 지향.",
+    "strengths": ["멀티모달", "에이전트", "장시간 작업"],
+    "tasks": ["agent", "vision", "research"],
+    "caution": "",
+    "tier": "flagship"
+  },
+  "meta/muse-spark-1.3": {
+    "ko": "장시간 에이전트·멀티에이전트·코딩에 맞춘 멀티모달 추론 모델. 가격 대비 실용적.",
+    "strengths": ["코딩", "멀티에이전트", "가격"],
+    "tasks": ["coding", "agent"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "mistral/mistral-large-4": {
+    "ko": "1조 파라미터 멀티모달 MoE. 유럽 규제·온프레미스 환경에서 선택지가 되는 추론·코딩 모델.",
+    "strengths": ["유럽 데이터 주권", "코딩", "멀티모달"],
+    "tasks": ["coding", "agent"],
+    "caution": "최전선 성능은 미국·중국 상위 모델보다 한 단계 아래로 평가되는 경우가 많음.",
+    "tier": "mid"
+  },
+  "deepseek/deepseek-v4-pro": {
+    "ko": "100만 토큰 컨텍스트에 사고/비사고 모드를 모두 지원하는 DeepSeek 주력. 오픈웨이트.",
+    "strengths": ["초저가", "오픈웨이트(자체 호스팅)", "100만 컨텍스트"],
+    "tasks": ["coding", "long", "cheap"],
+    "caution": "민감 정보는 중국 서버 이슈로 자체 호스팅 검토.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "deepseek/deepseek-v4-flash": {
+    "ko": "V4.1 Flash 업데이트판. 추론·코딩·에이전트·시각 이해를 크게 개선한 초저가 모델.",
+    "strengths": ["압도적 가격", "코딩", "에이전트"],
+    "tasks": ["cheap", "coding", "agent"],
+    "caution": "",
+    "tier": "light",
+    "pick": true
+  },
+  "moonshotai/kimi-k3.1-pro": {
+    "ko": "100만 컨텍스트·상시 추론의 멀티모달 Kimi. 코딩, 3D 제작, 금융 리서치를 겨냥.",
+    "strengths": ["장문 컨텍스트", "코딩", "금융·리서치"],
+    "tasks": ["long", "coding", "research"],
+    "caution": "상시 추론이라 단순 작업엔 토큰 소모가 큼.",
+    "tier": "flagship",
+    "pick": true
+  },
+  "moonshotai/kimi-k3": {
+    "ko": "사고 강도를 켜고 끌 수 있는 100만 컨텍스트 멀티모달 모델. 장시간 에이전트 작업용.",
+    "strengths": ["오픈웨이트", "장시간 에이전트", "가격"],
+    "tasks": ["agent", "long", "coding"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "moonshotai/kimi-k2.7-code": {
+    "ko": "저장소 단위 장시간 코딩에 특화. 과잉 사고를 줄인 코딩 전용 모델.",
+    "strengths": ["코드베이스 작업", "오픈웨이트", "저렴"],
+    "tasks": ["coding"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "alibaba/qwen3.8-max": {
+    "ko": "2.4조 파라미터 MoE 플래그십. 코딩·전문 업무·멀티모달·장시간 작업을 모두 노림.",
+    "strengths": ["코딩", "멀티모달", "장문"],
+    "tasks": ["coding", "vision", "agent"],
+    "caution": "",
+    "tier": "flagship",
+    "pick": true
+  },
+  "alibaba/qwen3.8-flash": {
+    "ko": "시각 추론·문서·에이전트에 강한 저가 Qwen. 가성비 멀티모달.",
+    "strengths": ["초저가", "이미지·문서", "에이전트"],
+    "tasks": ["cheap", "vision"],
+    "caution": "",
+    "tier": "light"
+  },
+  "alibaba/qwen3.8-omni-flash": {
+    "ko": "텍스트·이미지·오디오를 한 번에 다루는 옴니 모델. 음성 포함 멀티모달 에이전트용.",
+    "strengths": ["오디오 입력", "멀티모달", "저가"],
+    "tasks": ["vision", "cheap", "agent"],
+    "caution": "",
+    "tier": "light"
+  },
+  "zhipuai/glm-5.3": {
+    "ko": "장시간 코딩·에이전트·복잡한 프로젝트 수행을 겨냥한 GLM 플래그십. 오픈웨이트.",
+    "strengths": ["장시간 코딩", "오픈웨이트", "에이전트"],
+    "tasks": ["coding", "agent"],
+    "caution": "",
+    "tier": "flagship",
+    "pick": true
+  },
+  "zhipuai/glm-5.3-flash": {
+    "ko": "GLM-5.3 계열의 저가·고속 버전. 코딩과 에이전트를 대량으로 돌릴 때.",
+    "strengths": ["초저가", "코딩", "에이전트"],
+    "tasks": ["cheap", "coding"],
+    "caution": "",
+    "tier": "light"
+  },
+  "zhipuai/glm-5v-turbo": {
+    "ko": "스크린샷·문서·멀티모달 에이전트에 맞춘 빠른 비전 모델.",
+    "strengths": ["화면 이해", "문서", "저지연"],
+    "tasks": ["vision", "agent"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "minimax/MiniMax-M3.1-Flash": {
+    "ko": "100만 컨텍스트에 사고 깊이를 조절할 수 있는 멀티모달 코딩 모델. 오픈웨이트.",
+    "strengths": ["초저가", "오픈웨이트", "장문 코딩"],
+    "tasks": ["coding", "cheap", "long"],
+    "caution": "",
+    "tier": "mid",
+    "pick": true
+  },
+  "minimax/MiniMax-M3": {
+    "ko": "장문 코딩·지각·에이전트 계획을 위한 MiniMax 멀티모달 모델.",
+    "strengths": ["오픈웨이트", "장문", "에이전트"],
+    "tasks": ["coding", "agent", "long"],
+    "caution": "",
+    "tier": "mid"
+  },
+  "cohere/command-a-plus-05-2026": {
+    "ko": "다국어 에이전트·기업 워크플로에 맞춘 Cohere 상위 모델. 검색 연동(RAG) 환경에서 자주 쓰임.",
+    "strengths": ["다국어", "기업 RAG", "에이전트"],
+    "tasks": ["research", "agent"],
+    "caution": "",
+    "tier": "mid"
+  }
+}
