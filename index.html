@@ -232,7 +232,7 @@ footer{margin-top:46px;padding:22px 0 38px;background:var(--band);font-size:15px
     <button class="tab" role="tab" aria-selected="false" data-t="prov">④ 업체별</button>
     <button class="tab" role="tab" aria-selected="false" data-t="upd">⑤ 업데이트</button>
   </div>
-  <div id="pane"></div>
+  <div id="pane"><div class="empty" style="margin-top:24px">데이터를 불러오는 중입니다…</div></div>
 </main>
 
 <footer><div class="wrap">
@@ -664,6 +664,7 @@ function render(){
   });
 }
 fetch("data/models.json?v="+Date.now()).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+ .catch(()=>fetch("models.json?v="+Date.now()).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}))
  .then(d=>{
    D=d;
    $("#gen").textContent=new Date(d.generated_at).toLocaleString("ko-KR",{timeZone:"Asia/Seoul",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});
