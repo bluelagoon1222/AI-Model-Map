@@ -105,7 +105,18 @@ function mapModel(pid, mid, m, country, label) {
   };
 }
 
+// OpenRouter task-spend 태그 → 사이트 작업 구분.
+// 2026-11 에 태그가 "code:" 형식에서 "software.implementation" 같은 점 표기로 바뀌었다.
+// (옛 형식도 남겨 두어 형식이 되돌아와도 동작한다)
 const TASK_SPEND_MAP = [
+  [/\.(classification_tagging|extraction|transformation|reconciliation_consolidation)$/, "cheap"],
+  [/^data\.visualization$/, "research"],
+  [/^software\./, "coding"],
+  [/^assistance\./, "agent"],
+  [/^information\./, "research"],
+  [/^data\.(analysis|evaluation)$/, "research"],
+  [/^(writing|creative)\./, "writing"],
+  // 옛 형식
   [/^code:/, "coding"],
   [/^agent:/, "agent"],
   [/^(research_report|qa_knowledge|math|finance_trading|security_audit|devops)$/, "research"],
