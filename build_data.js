@@ -1,11 +1,12 @@
 // AI 모델 지도 — 데이터 생성 (models.dev + OpenRouter 공개 API)
-// 실행: node scripts/build_data.js
+// 실행: node build_data.js   (저장소 루트에서)
+// 입출력: curation.json(큐레이션) -> models.json / updates.json (사이트가 읽는 데이터)
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = path.join(__dirname, "..");
-const DATA_DIR = path.join(ROOT, "data");
-const NOTES_FILE = path.join(ROOT, "notes", "curation.json");
+const ROOT = __dirname;
+const DATA_DIR = ROOT;
+const NOTES_FILE = path.join(ROOT, "curation.json");
 
 const PROVIDERS = [
   // 미국

@@ -8,22 +8,22 @@ GitHub Pages에서 돌아가고, 모델 데이터는 매일 자동으로 갱신�
 | 경로 | 역할 |
 |---|---|
 | `index.html` | 사이트 전체 (탭 4개: 작업별 추천 / 업체별 / 전체 비교 / 업데이트) |
-| `scripts/build_data.js` | models.dev + OpenRouter 공개 API에서 데이터 수집 → `data/models.json` |
-| `notes/curation.json` | 한국어 설명·추천 작업 큐레이션 (사람이 관리) |
-| `data/models.json` | 사이트가 읽는 데이터 (자동 생성) |
-| `data/updates.json` | 새로 추가된 모델 이력 (자동 생성) |
+| `build_data.js` | models.dev + OpenRouter 공개 API에서 데이터 수집 → `models.json` |
+| `curation.json` | 한국어 설명·추천 작업 큐레이션 (사람이 관리) |
+| `models.json` | 사이트가 읽는 데이터 (자동 생성) |
+| `updates.json` | 새로 추가된 모델 이력 (자동 생성) |
 | `.github/workflows/update.yml` | 매일 06:00 KST 자동 갱신 + 수동 실행 |
 
 ## 데이터 갱신 방식
 
-1. GitHub Actions가 매일 `node scripts/build_data.js` 실행
+1. GitHub Actions가 매일 `node build_data.js` 실행
 2. models.dev에서 모델명·출시일·가격·컨텍스트·능력·오픈웨이트 수집
 3. OpenRouter에서 컨텍스트/가격 보조 확인
-4. `notes/curation.json`의 한국어 설명을 모델 ID로 붙임
-5. `data/`를 커밋 → 사이트에 자동 반영
+4. `curation.json`의 한국어 설명을 모델 ID로 붙임
+5. `models.json`·`updates.json`을 커밋 → 사이트에 자동 반영
 
 새 모델은 자동으로 목록에 추가되고 **NEW** 표시가 붙습니다.
-한국어 설명이 없는 모델은 "설명 준비 중"으로 표시되며, `notes/curation.json`에
+한국어 설명이 없는 모델은 "설명 준비 중"으로 표시되며, `curation.json`에
 항목을 추가하면 다음 갱신 때 반영됩니다.
 
 ```json
@@ -42,7 +42,7 @@ GitHub Pages에서 돌아가고, 모델 데이터는 매일 자동으로 갱신�
 ## 수동으로 데이터 갱신
 
 ```bash
-node scripts/build_data.js
+node build_data.js
 ```
 
 ## 로컬 확인

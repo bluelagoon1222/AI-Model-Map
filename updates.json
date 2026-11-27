@@ -1,5 +1,24 @@
 [
  {
+  "at": "2026-11-27T02:16:17.772Z",
+  "added": [
+   "openai/gpt-6-astra-healthcare",
+   "openai/gpt-6.1-sol-healthcare",
+   "openai/gpt-6.2-astra-healthcare",
+   "openai/gpt-6.2-sol-healthcare",
+   "openai/gpt-6.2-astra",
+   "openai/gpt-6.2-sol",
+   "google/gemini-4-neon",
+   "google/gemini-4-hydrogen",
+   "google/gemini-4-carbon",
+   "mistral/ministral-14b-latest",
+   "cohere/north-small-translate-1.0",
+   "cohere/north-mini-code-1.0",
+   "alibaba/qwen4-max",
+   "zhipuai/glm-5.3-flashx-legal"
+  ]
+ },
+ {
   "at": "2026-11-10T06:16:44.818Z",
   "added": [
    "anthropic/claude-fable-5-2",
