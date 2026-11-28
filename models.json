@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T03:05:16.994Z",
+ "generated_at": "2026-11-28T03:02:30.679Z",
  "sources": [
   "models.dev",
   "openrouter.ai"
@@ -39,13 +39,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.03233525299903812,
-      "research": 0.03586953810919329,
-      "cheap": 0.05537425854710209,
-      "writing": 0.03330890203245152,
-      "agent": 0.013568449263477873
+      "coding": 0.030478152814645925,
+      "research": 0.03633234733346298,
+      "cheap": 0.05226641139972698,
+      "writing": 0.03355346892828194,
+      "agent": 0.012540259648270897
      },
-     "spend_total": 0.6427808085406268,
+     "spend_total": 0.6251408493990891,
      "spend_slug": "openai/gpt-6-astra",
      "spend_key": "openai/gpt-6-astra",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $10 / 출력 $50 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -84,13 +84,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.0666099545138016,
-      "cheap": 0.10509298397681811,
-      "research": 0.06849419922303003,
-      "writing": 0.0414567451940588,
-      "agent": 0.03343677032034737
+      "coding": 0.06386492919182206,
+      "cheap": 0.10149835457067241,
+      "research": 0.06563082460547469,
+      "writing": 0.04016837697785865,
+      "agent": 0.03181675586790832
      },
-     "spend_total": 1.2138207613763086,
+     "spend_total": 1.1669467154264432,
      "spend_slug": "openai/gpt-6-1-sol",
      "spend_key": "openai/gpt-6-1-sol",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -129,10 +129,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.014718450457710685,
-      "coding": 0.0051232470865064305
+      "research": 0.017327683049666844,
+      "coding": 0.005493473122963689
      },
-     "spend_total": 0.10875688145135994,
+     "spend_total": 0.12449710984900972,
      "spend_slug": "openai/gpt-6-2-astra",
      "spend_key": "openai/gpt-6-2-astra",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $8 / 출력 $40 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -206,10 +206,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.014718450457710685,
-      "coding": 0.0051232470865064305
+      "research": 0.017327683049666844,
+      "coding": 0.005493473122963689
      },
-     "spend_total": 0.10875688145135994,
+     "spend_total": 0.12449710984900972,
      "spend_slug": "openai/gpt-6-2-astra",
      "spend_key": "openai/gpt-6-2-astra",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $8 / 출력 $40 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -283,9 +283,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "agent": 0.01445149750618587
+      "agent": 0.015495595974636097
      },
-     "spend_total": 0.038617825818262556,
+     "spend_total": 0.04167842153716723,
      "spend_slug": "openai/gpt-6-1-terra",
      "spend_key": "openai/gpt-6-1-terra",
      "ko": "시각 추론·정밀한 컴퓨터 사용·자연스러운 문장에 특화된 빠른 모델.",
@@ -332,13 +332,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.0666099545138016,
-      "cheap": 0.10509298397681811,
-      "research": 0.06849419922303003,
-      "writing": 0.0414567451940588,
-      "agent": 0.03343677032034737
+      "coding": 0.06386492919182206,
+      "cheap": 0.10149835457067241,
+      "research": 0.06563082460547469,
+      "writing": 0.04016837697785865,
+      "agent": 0.03181675586790832
      },
-     "spend_total": 1.2138207613763086,
+     "spend_total": 1.1669467154264432,
      "spend_slug": "openai/gpt-6-1-sol",
      "spend_key": "openai/gpt-6-1-sol",
      "ko": "Astra에 근접한 성능을 절반 가격에. 복잡한 코딩·에이전트 작업의 실용적 주력.",
@@ -384,17 +384,17 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "cheap": 0.03681738222188726,
-      "research": 0.012107100978103847,
-      "agent": 0.008811602088475298,
-      "writing": 0.029984328060557505
+      "cheap": 0.03641141424626277,
+      "research": 0.01210332915441539,
+      "agent": 0.008996419087077663,
+      "writing": 0.02939233045433426
      },
-     "spend_total": 0.24536456321497815,
+     "spend_total": 0.24379299536625731,
      "spend_slug": "openai/gpt-6-luna",
      "spend_key": "openai/gpt-6-luna",
-     "pop": 7470000000000,
+     "pop": 7420000000000,
      "pop_rank": 5,
-     "pop_chg": "-16%",
+     "pop_chg": "-15%",
      "pop_name": "GPT-6 Luna",
      "ko": "OpenAI에서 가장 저렴하고 빠른 모델. 대량·반복 작업용.",
      "ko_hl": "저렴",
@@ -437,6 +437,12 @@
      "audio_in": false,
      "image_out": false,
      "video_out": false,
+     "spend": {
+      "research": 0.007925337024796206
+     },
+     "spend_total": 0.03994318974607715,
+     "spend_slug": "openai/gpt-6-sol",
+     "spend_key": "openai/gpt-6-sol",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
      "ko_hl": "추론",
      "strengths": [],
@@ -473,13 +479,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.03233525299903812,
-      "research": 0.03586953810919329,
-      "cheap": 0.05537425854710209,
-      "writing": 0.03330890203245152,
-      "agent": 0.013568449263477873
+      "coding": 0.030478152814645925,
+      "research": 0.03633234733346298,
+      "cheap": 0.05226641139972698,
+      "writing": 0.03355346892828194,
+      "agent": 0.012540259648270897
      },
-     "spend_total": 0.6427808085406268,
+     "spend_total": 0.6251408493990891,
      "spend_slug": "openai/gpt-6-astra",
      "spend_key": "openai/gpt-6-astra",
      "ko": "OpenAI 최상위 모델. 복잡한 추론·코딩·컴퓨터 사용·리서치·문서 작업을 한 모델로 처리하려는 '만능 최상급'.",
@@ -596,10 +602,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.005724893700013805,
-      "cheap": 0.01877643433694215
+      "coding": 0.005415118178552391,
+      "cheap": 0.018282383434062157
      },
-     "spend_total": 0.07565698372481118,
+     "spend_total": 0.07259819031808737,
      "spend_slug": "openai/gpt-5-6-luna",
      "spend_key": "openai/gpt-5-6-luna",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $4 / 출력 $20 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -638,10 +644,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.005724893700013805,
-      "cheap": 0.01877643433694215
+      "coding": 0.005415118178552391,
+      "cheap": 0.018282383434062157
      },
-     "spend_total": 0.07565698372481118,
+     "spend_total": 0.07259819031808737,
      "spend_slug": "openai/gpt-5-6-luna",
      "spend_key": "openai/gpt-5-6-luna",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $0.2 / 출력 $1.2 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 저렴한 가격이 장점입니다. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -680,10 +686,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "cheap": 0.026373822108331755,
-      "research": 0.003637331292553673
+      "cheap": 0.023916800316975538,
+      "research": 0.003474587771832658
      },
-     "spend_total": 0.07017067057052467,
+     "spend_total": 0.0645562565302028,
      "spend_slug": "openai/gpt-5-6-sol",
      "spend_key": "openai/gpt-5-6-sol",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $4 / 출력 $20 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -722,9 +728,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.009069451874319541
+      "research": 0.00892672318225402
      },
-     "spend_total": 0.04565522310019504,
+     "spend_total": 0.0449901116840702,
      "spend_slug": "openai/gpt-5-6-terra",
      "spend_key": "openai/gpt-5-6-terra",
      "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $2 / 출력 $12 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -1288,10 +1294,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.005724893700013805,
-      "cheap": 0.01877643433694215
+      "coding": 0.005415118178552391,
+      "cheap": 0.018282383434062157
      },
-     "spend_total": 0.07565698372481118,
+     "spend_total": 0.07259819031808737,
      "spend_slug": "openai/gpt-5-6-luna",
      "spend_key": "openai/gpt-5-6-luna",
      "ko": "OpenAI의 범용 모델. 컨텍스트 400K 토큰. 입력 $1.25 / 출력 $10 (100만 토큰당). 추론·비전·도구 호출 지원.",
@@ -1688,12 +1694,12 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.057625662033062776,
-      "research": 0.033174124394985446,
-      "agent": 0.03493507404643087,
-      "writing": 0.03091269736184719
+      "coding": 0.06226425608895325,
+      "research": 0.03820558350213605,
+      "agent": 0.051919752991228474,
+      "writing": 0.02959364884103768
      },
-     "spend_total": 0.7414721519507697,
+     "spend_total": 0.8410271929070035,
      "spend_slug": "anthropic/claude-fable-5-2",
      "spend_key": "anthropic/claude-fable-5-2",
      "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $8 / 출력 $40 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -1732,10 +1738,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "cheap": 0.012936855583296835,
-      "agent": 0.011994674635629416
+      "cheap": 0.012723279118209006,
+      "agent": 0.011629921775283679
      },
-     "spend_total": 0.057491165297054406,
+     "spend_total": 0.05630774062652116,
      "spend_slug": "anthropic/claude-haiku-5-5",
      "spend_key": "anthropic/claude-haiku-5-5",
      "ko": "빠른 응답·분류·가벼운 에이전트용 소형 모델. Claude 계열에서 가장 저렴.",
@@ -1780,13 +1786,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.07501743790361955,
-      "cheap": 0.11508234248287356,
-      "research": 0.12080714227506198,
-      "writing": 0.09651652415937743,
-      "agent": 0.1596507955405529
+      "coding": 0.07403283854711858,
+      "cheap": 0.11380136411618608,
+      "research": 0.11774258032118654,
+      "writing": 0.09678409553136538,
+      "agent": 0.1539547533944903
      },
-     "spend_total": 2.0534301141055096,
+     "spend_total": 2.018622339900867,
      "spend_slug": "anthropic/claude-sonnet-5-5",
      "spend_key": "anthropic/claude-sonnet-5-5",
      "ko": "일상 코딩·에이전트·지식 작업의 '가성비 주력'. Claude를 기본으로 쓸 때 가장 무난한 선택.",
@@ -1833,18 +1839,18 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.2768379276396439,
-      "cheap": 0.17090622773516212,
-      "research": 0.22674875010636023,
-      "writing": 0.20377518182488227,
-      "agent": 0.33734188903821466
+      "coding": 0.27590109855497297,
+      "cheap": 0.17161489336039173,
+      "research": 0.22736221276086058,
+      "writing": 0.2032634895585955,
+      "agent": 0.3379030799904153
      },
-     "spend_total": 4.85338211897073,
+     "spend_total": 4.860424223957098,
      "spend_slug": "anthropic/claude-opus-5-5",
      "spend_key": "anthropic/claude-opus-5-5",
-     "pop": 6440000000000,
+     "pop": 6360000000000,
      "pop_rank": 6,
-     "pop_chg": "-14%",
+     "pop_chg": "-12%",
      "pop_name": "Claude Opus 5.5",
      "ko": "장시간 이어지는 에이전트형 코딩과 전문 지식 작업에 맞춘 Opus. Fable보다 저렴하면서 코딩에 강함.",
      "ko_hl": "코딩",
@@ -1889,12 +1895,11 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.011558175103481748,
-      "writing": 0.011397801363271634,
-      "research": 0.011846794392368413,
-      "agent": 0.008344858475055852
+      "coding": 0.010750112973025652,
+      "writing": 0.010536301117186385,
+      "research": 0.010942665888848412
      },
-     "spend_total": 0.19377201216609494,
+     "spend_total": 0.159059005538802,
      "spend_slug": "anthropic/claude-fable-5-1",
      "spend_key": "anthropic/claude-fable-5-1",
      "ko": "긴 호흡의 에이전트 작업과 까다로운 추론을 위한 Claude 최상위 계열. 창작·분석에도 강점.",
@@ -1941,10 +1946,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.008253006864422681,
-      "writing": 0.009793685956718286
+      "coding": 0.008233719694379322,
+      "writing": 0.009093906731821625
      },
-     "spend_total": 0.08473967101842814,
+     "spend_total": 0.08261559713388467,
      "spend_slug": "anthropic/claude-opus-5",
      "spend_key": "anthropic/claude-opus-5",
      "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $5 / 출력 $25 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -1983,10 +1988,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.002646496072888998,
-      "agent": 0.03530066404808995
+      "agent": 0.03261594107574585
      },
-     "spend_total": 0.11223842628800218,
+     "spend_total": 0.08772692210170169,
      "spend_slug": "anthropic/claude-sonnet-5",
      "spend_key": "anthropic/claude-sonnet-5",
      "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -2025,12 +2029,12 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.057625662033062776,
-      "research": 0.033174124394985446,
-      "agent": 0.03493507404643087,
-      "writing": 0.03091269736184719
+      "coding": 0.06226425608895325,
+      "research": 0.03820558350213605,
+      "agent": 0.051919752991228474,
+      "writing": 0.02959364884103768
      },
-     "spend_total": 0.7414721519507697,
+     "spend_total": 0.8410271929070035,
      "spend_slug": "anthropic/claude-fable-5-2",
      "spend_key": "anthropic/claude-fable-5-2",
      "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $10 / 출력 $50 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -2427,12 +2431,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.028658950764829286,
-      "writing": 0.008050048169776315,
-      "agent": 0.011972833712999766,
-      "research": 0.04046976756961513
+      "coding": 0.03374149734932486,
+      "writing": 0.008302228240276974,
+      "research": 0.05985633440913163,
+      "agent": 0.01672339215552655,
+      "cheap": 0.012702221218590881
      },
-     "spend_total": 0.45338242322513067,
+     "spend_total": 0.6244869414048887,
      "spend_slug": "google/gemini-4-neon",
      "spend_key": "google/gemini-4-neon",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $3 / 출력 $15 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -2471,9 +2476,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.01569491159350837
+      "research": 0.015115582344418095
      },
-     "spend_total": 0.07900749684425926,
+     "spend_total": 0.07618156449581033,
      "spend_slug": "google/gemini-4-hydrogen",
      "spend_key": "google/gemini-4-hydrogen",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $1.5 / 출력 $7.5 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -2512,13 +2517,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.022103442486473807,
-      "writing": 0.022936213537345294,
-      "research": 0.055749394972982556,
-      "cheap": 0.01228618776576101,
-      "agent": 0.007863527073586875
+      "coding": 0.022225945942804682,
+      "writing": 0.024295872562243928,
+      "research": 0.05580878486155707,
+      "cheap": 0.01177275236291282,
+      "agent": 0.009413552917408377
      },
-     "spend_total": 0.5430463579438045,
+     "spend_total": 0.5520145306967911,
      "spend_slug": "google/gemini-4-carbon",
      "spend_key": "google/gemini-4-carbon",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -2557,12 +2562,12 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "cheap": 0.03714825633844186,
-      "research": 0.021351427501255536,
-      "writing": 0.0837808133301182,
-      "agent": 0.04068844067640321
+      "cheap": 0.04821350636218834,
+      "research": 0.015463835727464466,
+      "writing": 0.08299728237359645,
+      "agent": 0.03788910799415907
      },
-     "spend_total": 0.536470774899906,
+     "spend_total": 0.5202775703711341,
      "spend_slug": "google/gemini-4-argon",
      "spend_key": "google/gemini-4-argon",
      "ko": "구글 최상위 추론 모델. 대규모 소프트웨어 엔지니어링·수학·과학·장시간 자율 작업에 특화.",
@@ -2609,12 +2614,12 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "cheap": 0.08459047973713212,
-      "writing": 0.09271691103847708,
-      "agent": 0.03619685084476084,
-      "research": 0.00508558092205218
+      "cheap": 0.08342937472423634,
+      "writing": 0.09259735517353689,
+      "agent": 0.035052861686040125,
+      "research": 0.005648714495649345
      },
-     "spend_total": 0.5622430440458076,
+     "spend_total": 0.560858510992605,
      "spend_slug": "google/gemini-3-8-flash",
      "spend_key": "google/gemini-3-8-flash",
      "ko": "Flash 계열 최상급. 장시간 소프트웨어 작업과 자율 에이전트를 낮은 가격에.",
@@ -2696,9 +2701,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "writing": 0.00922696424845173
+      "writing": 0.008987458479802396
      },
-     "spend_total": 0.027226055419537418,
+     "spend_total": 0.026594468895525986,
      "spend_slug": "google/gemini-3-7-flash",
      "spend_key": "google/gemini-3-7-flash",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.75 / 출력 $3.75 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -2849,9 +2854,9 @@
      "image_out": true,
      "video_out": false,
      "spend": {
-      "writing": 0.007622426865712792
+      "writing": 0.008097597983134216
      },
-     "spend_total": 0.022491537919645713,
+     "spend_total": 0.023961314333178618,
      "spend_slug": "google/gemini-3-1-flash-lite",
      "spend_key": "google/gemini-3-1-flash-lite",
      "ko": "Google의 범용 모델. 컨텍스트 66K 토큰. 입력 $0.25 / 출력 $1.5 (100만 토큰당). 추론·비전·PDF·이미지 생성·도구 호출 지원. 저렴한 가격이 장점입니다.",
@@ -3030,9 +3035,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "writing": 0.007622426865712792
+      "writing": 0.008097597983134216
      },
-     "spend_total": 0.022491537919645713,
+     "spend_total": 0.023961314333178618,
      "spend_slug": "google/gemini-3-1-flash-lite",
      "spend_key": "google/gemini-3-1-flash-lite",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.25 / 출력 $1.5 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 저렴한 가격이 장점입니다. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -3246,10 +3251,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.0074998462339256255,
-      "agent": 0.010408751616745184
+      "research": 0.007323707008083208,
+      "agent": 0.009793365494457392
      },
-     "spend_total": 0.06556854794047477,
+     "spend_total": 0.06325217583203017,
      "spend_slug": "google/gemini-3-1-pro-preview",
      "spend_key": "google/gemini-3-1-pro-preview",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $12 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -3288,10 +3293,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.0074998462339256255,
-      "agent": 0.010408751616745184
+      "research": 0.007323707008083208,
+      "agent": 0.009793365494457392
      },
-     "spend_total": 0.06556854794047477,
+     "spend_total": 0.06325217583203017,
      "spend_slug": "google/gemini-3-1-pro-preview",
      "spend_key": "google/gemini-3-1-pro-preview",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $12 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -3365,10 +3370,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "writing": 0.016123910815643204,
-      "agent": 0.03383753541061679
+      "writing": 0.016171574422018862,
+      "agent": 0.03298377682303837
      },
-     "spend_total": 0.1379988274209335,
+     "spend_total": 0.13656901893646486,
      "spend_slug": "google/gemini-3-flash-preview",
      "spend_key": "google/gemini-3-flash-preview",
      "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.5 / 출력 $3 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -3695,10 +3700,10 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.006128168524271597,
-      "coding": 0.005258509777099875
+      "research": 0.0058893656942784235,
+      "coding": 0.005300638044677805
      },
-     "spend_total": 0.06642899146583836,
+     "spend_total": 0.06554407774920988,
      "spend_slug": "x-ai/grok-4-7",
      "spend_key": "x-ai/grok-4-7",
      "ko": "xAI 최전선 모델. 장시간 에이전트·코딩·지식 작업·시각 프로젝트를 함께 노림.",
@@ -3786,9 +3791,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.003327533241333633
+      "coding": 0.003218725058588182
      },
-     "spend_total": 0.02251471171719006,
+     "spend_total": 0.021776640280337264,
      "spend_slug": "x-ai/grok-4-5",
      "spend_key": "x-ai/grok-4-5",
      "ko": "xAI의 범용 모델. 컨텍스트 500K 토큰. 입력 $2 / 출력 $6 (100만 토큰당). 추론·비전·PDF·도구 호출 지원.",
@@ -4122,9 +4127,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "agent": 0.008412541188533412
+      "agent": 0.008453593394576471
      },
-     "spend_total": 0.022480303523471013,
+     "spend_total": 0.022737584897004573,
      "spend_slug": "meta/muse-wonder",
      "spend_key": "meta/muse-wonder",
      "ko": "Meta의 최전선 멀티모달 추론 모델. 개인·업무용 에이전트와 장시간 작업 지향.",
@@ -5084,11 +5089,11 @@
    "doc": "https://docs.cohere.com/docs/models",
    "models": [
     {
-     "key": "cohere/north-small-translate-1.0",
+     "key": "cohere/north-small-translate-09-2026",
      "provider": "cohere",
      "provider_label": "Cohere",
      "country": "CA",
-     "id": "north-small-translate-1.0",
+     "id": "north-small-translate-09-2026",
      "name": "North Small Translate",
      "family": "north-small",
      "description": "Open-weight translation model for more than 50 languages and locale variants",
@@ -5119,11 +5124,11 @@
      "tier": ""
     },
     {
-     "key": "cohere/north-small-translate-09-2026",
+     "key": "cohere/north-small-translate-1.0",
      "provider": "cohere",
      "provider_label": "Cohere",
      "country": "CA",
-     "id": "north-small-translate-09-2026",
+     "id": "north-small-translate-1.0",
      "name": "North Small Translate",
      "family": "north-small",
      "description": "Open-weight translation model for more than 50 languages and locale variants",
@@ -5721,15 +5726,14 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.006779658806665863,
-      "writing": 0.00829834382776313
+      "writing": 0.008489263063318778
      },
-     "spend_total": 0.05861447509947484,
+     "spend_total": 0.025120276548786097,
      "spend_slug": "deepseek/deepseek-v4-flash",
      "spend_key": "deepseek/deepseek-v4-flash",
-     "pop": 77200000000000,
+     "pop": 83100000000000,
      "pop_rank": 1,
-     "pop_chg": "+24%",
+     "pop_chg": "+33%",
      "pop_name": "DeepSeek V4.1 Flash 1017",
      "ko": "V4.1 Flash 업데이트판. 추론·코딩·에이전트·시각 이해를 크게 개선한 초저가 모델.",
      "ko_hl": "코딩",
@@ -5775,10 +5779,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.006779658806665863,
-      "writing": 0.00829834382776313
+      "writing": 0.008489263063318778
      },
-     "spend_total": 0.05861447509947484,
+     "spend_total": 0.025120276548786097,
      "spend_slug": "deepseek/deepseek-v4-flash",
      "spend_key": "deepseek/deepseek-v4-flash",
      "ko": "DeepSeek의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.15 / 출력 $0.6 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
@@ -5816,9 +5819,9 @@
      "audio_in": false,
      "image_out": false,
      "video_out": false,
-     "pop": 77200000000000,
+     "pop": 83100000000000,
      "pop_rank": 1,
-     "pop_chg": "+24%",
+     "pop_chg": "+33%",
      "pop_name": "DeepSeek V4.1 Flash 1017",
      "ko": "DeepSeek의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.15 / 출력 $0.6 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
      "ko_hl": "오픈웨이트",
@@ -5856,9 +5859,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "writing": 0.02295449407889351
+      "writing": 0.023354304778052132
      },
-     "spend_total": 0.06773195507116715,
+     "spend_total": 0.06910689305461995,
      "spend_slug": "deepseek/deepseek-v4-pro",
      "spend_key": "deepseek/deepseek-v4-pro",
      "ko": "100만 토큰 컨텍스트에 사고/비사고 모드를 모두 지원하는 DeepSeek 주력. 오픈웨이트.",
@@ -5913,18 +5916,18 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.12389258970077922,
-      "research": 0.07252298416765685,
-      "writing": 0.044099985299959496,
-      "agent": 0.03293897082386176,
-      "cheap": 0.04236504330159114
+      "coding": 0.1249666737640414,
+      "research": 0.07482944294517715,
+      "writing": 0.045096245822104745,
+      "agent": 0.03783123522542731,
+      "cheap": 0.04421219413482356
      },
-     "spend_total": 1.5048097943908385,
+     "spend_total": 1.5447743816180897,
      "spend_slug": "moonshotai/kimi-k3-1-pro",
      "spend_key": "moonshotai/kimi-k3-1-pro",
-     "pop": 4670000000000,
-     "pop_rank": 8,
-     "pop_chg": "+31%",
+     "pop": 4850000000000,
+     "pop_rank": 7,
+     "pop_chg": "+37%",
      "pop_name": "Kimi K3.1 Pro",
      "ko": "100만 컨텍스트·상시 추론의 멀티모달 Kimi. 코딩, 3D 제작, 금융 리서치를 겨냥.",
      "ko_hl": "코딩",
@@ -5970,13 +5973,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.12389258970077922,
-      "research": 0.07252298416765685,
-      "writing": 0.044099985299959496,
-      "agent": 0.03293897082386176,
-      "cheap": 0.04236504330159114
+      "coding": 0.1249666737640414,
+      "research": 0.07482944294517715,
+      "writing": 0.045096245822104745,
+      "agent": 0.03783123522542731,
+      "cheap": 0.04421219413482356
      },
-     "spend_total": 1.5048097943908385,
+     "spend_total": 1.5447743816180897,
      "spend_slug": "moonshotai/kimi-k3-1-pro",
      "spend_key": "moonshotai/kimi-k3-1-pro",
      "ko": "Moonshot (Kimi)의 범용 모델. 컨텍스트 1M 토큰. 입력 $4 / 출력 $20 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
@@ -6015,11 +6018,11 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.043709922747307,
-      "research": 0.030264172237860848,
-      "agent": 0.007297576812150204
+      "coding": 0.0423130183517097,
+      "research": 0.023485219527965284,
+      "agent": 0.006478318548826213
      },
-     "spend_total": 0.4675988759190344,
+     "spend_total": 0.42206210146964085,
      "spend_slug": "moonshotai/kimi-k3",
      "spend_key": "moonshotai/kimi-k3",
      "ko": "사고 강도를 켜고 끌 수 있는 100만 컨텍스트 멀티모달 모델. 장시간 에이전트 작업용.",
@@ -6523,9 +6526,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "writing": 0.011479409038618181
+      "writing": 0.011186463746622343
      },
-     "spend_total": 0.033872356958725716,
+     "spend_total": 0.03310146720889418,
      "spend_slug": "qwen/qwen3-6-35b-a3b",
      "spend_key": "qwen/qwen3-6-35b-a3b",
      "ko": "Alibaba (Qwen)의 범용 모델. 컨텍스트 262K 토큰. 입력 $0.375 / 출력 $2.25 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
@@ -7202,13 +7205,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.08149636699446976,
-      "research": 0.034491976274568875,
-      "writing": 0.0333828281956766,
-      "agent": 0.03303638430318854,
-      "cheap": 0.01465031986757771
+      "coding": 0.0814234215384853,
+      "research": 0.028510195776812283,
+      "writing": 0.03356884890997666,
+      "agent": 0.03862896151181185,
+      "cheap": 0.013530943796367672
      },
-     "spend_total": 0.9406425359118881,
+     "spend_total": 0.9244167019269109,
      "spend_slug": "z-ai/glm-5-3",
      "spend_key": "z-ai/glm-5-3",
      "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.29943 / 출력 $1.04801 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 저렴한 가격이 장점입니다. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -7247,13 +7250,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.08149636699446976,
-      "research": 0.034491976274568875,
-      "writing": 0.0333828281956766,
-      "agent": 0.03303638430318854,
-      "cheap": 0.01465031986757771
+      "coding": 0.0814234215384853,
+      "research": 0.028510195776812283,
+      "writing": 0.03356884890997666,
+      "agent": 0.03862896151181185,
+      "cheap": 0.013530943796367672
      },
-     "spend_total": 0.9406425359118881,
+     "spend_total": 0.9244167019269109,
      "spend_slug": "z-ai/glm-5-3",
      "spend_key": "z-ai/glm-5-3",
      "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.29879 / 출력 $1.04577 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·PDF·도구 호출 지원.",
@@ -7292,18 +7295,18 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "research": 0.028787515396836317,
-      "cheap": 0.03142943365504618,
-      "writing": 0.009787534340801915,
-      "coding": 0.008064189095588361,
-      "agent": 0.0175960723307092
+      "research": 0.023816611425113886,
+      "cheap": 0.016832002063772552,
+      "writing": 0.009944589223459291,
+      "coding": 0.007669753903730339,
+      "agent": 0.018047448769576768
      },
-     "spend_total": 0.33718157947488425,
+     "spend_total": 0.28300226385237964,
      "spend_slug": "z-ai/glm-5-3-flash",
      "spend_key": "z-ai/glm-5-3-flash",
-     "pop": 13500000000000,
+     "pop": 13200000000000,
      "pop_rank": 4,
-     "pop_chg": "+27%",
+     "pop_chg": "+22%",
      "pop_name": "GLM 5.3 Flash",
      "ko": "GLM-5.3 계열의 저가·고속 버전. 코딩과 에이전트를 대량으로 돌릴 때.",
      "ko_hl": "코딩",
@@ -7348,18 +7351,18 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.08149636699446976,
-      "research": 0.034491976274568875,
-      "writing": 0.0333828281956766,
-      "agent": 0.03303638430318854,
-      "cheap": 0.01465031986757771
+      "coding": 0.0814234215384853,
+      "research": 0.028510195776812283,
+      "writing": 0.03356884890997666,
+      "agent": 0.03862896151181185,
+      "cheap": 0.013530943796367672
      },
-     "spend_total": 0.9406425359118881,
+     "spend_total": 0.9244167019269109,
      "spend_slug": "z-ai/glm-5-3",
      "spend_key": "z-ai/glm-5-3",
-     "pop": 4070000000000.0005,
+     "pop": 4160000000000,
      "pop_rank": 10,
-     "pop_chg": "+22%",
+     "pop_chg": "+23%",
      "pop_name": "GLM 5.3",
      "ko": "장시간 코딩·에이전트·복잡한 프로젝트 수행을 겨냥한 GLM 플래그십. 오픈웨이트.",
      "ko_hl": "장시간 코딩",
@@ -7404,9 +7407,9 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "writing": 0.016989414232161333
+      "writing": 0.01708162657993897
      },
-     "spend_total": 0.050130760342755,
+     "spend_total": 0.05054563398385401,
      "spend_slug": "z-ai/glm-5-2",
      "spend_key": "z-ai/glm-5-2",
      "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 1M 토큰. 입력 $1.19516 / 출력 $4.18306 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·도구 호출 지원.",
@@ -7522,13 +7525,13 @@
      "image_out": false,
      "video_out": false,
      "spend": {
-      "coding": 0.08149636699446976,
-      "research": 0.034491976274568875,
-      "writing": 0.0333828281956766,
-      "agent": 0.03303638430318854,
-      "cheap": 0.01465031986757771
+      "coding": 0.0814234215384853,
+      "research": 0.028510195776812283,
+      "writing": 0.03356884890997666,
+      "agent": 0.03862896151181185,
+      "cheap": 0.013530943796367672
      },
-     "spend_total": 0.9406425359118881,
+     "spend_total": 0.9244167019269109,
      "spend_slug": "z-ai/glm-5-3",
      "spend_key": "z-ai/glm-5-3",
      "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 205K 토큰. 입력 $0.59758 / 출력 $2.68911 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·도구 호출 지원.",
@@ -7924,9 +7927,9 @@
      "audio_in": false,
      "image_out": false,
      "video_out": false,
-     "pop": 4760000000000,
-     "pop_rank": 7,
-     "pop_chg": "+21%",
+     "pop": 4730000000000,
+     "pop_rank": 8,
+     "pop_chg": "+15%",
      "pop_name": "MiniMax M3.1 Flash",
      "ko": "100만 컨텍스트에 사고 깊이를 조절할 수 있는 멀티모달 코딩 모델. 오픈웨이트.",
      "ko_hl": "오픈웨이트",
@@ -8229,13 +8232,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.03233525299903812,
-    "research": 0.03586953810919329,
-    "cheap": 0.05537425854710209,
-    "writing": 0.03330890203245152,
-    "agent": 0.013568449263477873
+    "coding": 0.030478152814645925,
+    "research": 0.03633234733346298,
+    "cheap": 0.05226641139972698,
+    "writing": 0.03355346892828194,
+    "agent": 0.012540259648270897
    },
-   "spend_total": 0.6427808085406268,
+   "spend_total": 0.6251408493990891,
    "spend_slug": "openai/gpt-6-astra",
    "spend_key": "openai/gpt-6-astra",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $10 / 출력 $50 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8274,13 +8277,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.0666099545138016,
-    "cheap": 0.10509298397681811,
-    "research": 0.06849419922303003,
-    "writing": 0.0414567451940588,
-    "agent": 0.03343677032034737
+    "coding": 0.06386492919182206,
+    "cheap": 0.10149835457067241,
+    "research": 0.06563082460547469,
+    "writing": 0.04016837697785865,
+    "agent": 0.03181675586790832
    },
-   "spend_total": 1.2138207613763086,
+   "spend_total": 1.1669467154264432,
    "spend_slug": "openai/gpt-6-1-sol",
    "spend_key": "openai/gpt-6-1-sol",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8319,10 +8322,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.014718450457710685,
-    "coding": 0.0051232470865064305
+    "research": 0.017327683049666844,
+    "coding": 0.005493473122963689
    },
-   "spend_total": 0.10875688145135994,
+   "spend_total": 0.12449710984900972,
    "spend_slug": "openai/gpt-6-2-astra",
    "spend_key": "openai/gpt-6-2-astra",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $8 / 출력 $40 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8396,10 +8399,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.014718450457710685,
-    "coding": 0.0051232470865064305
+    "research": 0.017327683049666844,
+    "coding": 0.005493473122963689
    },
-   "spend_total": 0.10875688145135994,
+   "spend_total": 0.12449710984900972,
    "spend_slug": "openai/gpt-6-2-astra",
    "spend_key": "openai/gpt-6-2-astra",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $8 / 출력 $40 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8473,9 +8476,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "agent": 0.01445149750618587
+    "agent": 0.015495595974636097
    },
-   "spend_total": 0.038617825818262556,
+   "spend_total": 0.04167842153716723,
    "spend_slug": "openai/gpt-6-1-terra",
    "spend_key": "openai/gpt-6-1-terra",
    "ko": "시각 추론·정밀한 컴퓨터 사용·자연스러운 문장에 특화된 빠른 모델.",
@@ -8522,13 +8525,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.0666099545138016,
-    "cheap": 0.10509298397681811,
-    "research": 0.06849419922303003,
-    "writing": 0.0414567451940588,
-    "agent": 0.03343677032034737
+    "coding": 0.06386492919182206,
+    "cheap": 0.10149835457067241,
+    "research": 0.06563082460547469,
+    "writing": 0.04016837697785865,
+    "agent": 0.03181675586790832
    },
-   "spend_total": 1.2138207613763086,
+   "spend_total": 1.1669467154264432,
    "spend_slug": "openai/gpt-6-1-sol",
    "spend_key": "openai/gpt-6-1-sol",
    "ko": "Astra에 근접한 성능을 절반 가격에. 복잡한 코딩·에이전트 작업의 실용적 주력.",
@@ -8574,17 +8577,17 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "cheap": 0.03681738222188726,
-    "research": 0.012107100978103847,
-    "agent": 0.008811602088475298,
-    "writing": 0.029984328060557505
+    "cheap": 0.03641141424626277,
+    "research": 0.01210332915441539,
+    "agent": 0.008996419087077663,
+    "writing": 0.02939233045433426
    },
-   "spend_total": 0.24536456321497815,
+   "spend_total": 0.24379299536625731,
    "spend_slug": "openai/gpt-6-luna",
    "spend_key": "openai/gpt-6-luna",
-   "pop": 7470000000000,
+   "pop": 7420000000000,
    "pop_rank": 5,
-   "pop_chg": "-16%",
+   "pop_chg": "-15%",
    "pop_name": "GPT-6 Luna",
    "ko": "OpenAI에서 가장 저렴하고 빠른 모델. 대량·반복 작업용.",
    "ko_hl": "저렴",
@@ -8627,6 +8630,12 @@
    "audio_in": false,
    "image_out": false,
    "video_out": false,
+   "spend": {
+    "research": 0.007925337024796206
+   },
+   "spend_total": 0.03994318974607715,
+   "spend_slug": "openai/gpt-6-sol",
+   "spend_key": "openai/gpt-6-sol",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
    "ko_hl": "추론",
    "strengths": [],
@@ -8663,13 +8672,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.03233525299903812,
-    "research": 0.03586953810919329,
-    "cheap": 0.05537425854710209,
-    "writing": 0.03330890203245152,
-    "agent": 0.013568449263477873
+    "coding": 0.030478152814645925,
+    "research": 0.03633234733346298,
+    "cheap": 0.05226641139972698,
+    "writing": 0.03355346892828194,
+    "agent": 0.012540259648270897
    },
-   "spend_total": 0.6427808085406268,
+   "spend_total": 0.6251408493990891,
    "spend_slug": "openai/gpt-6-astra",
    "spend_key": "openai/gpt-6-astra",
    "ko": "OpenAI 최상위 모델. 복잡한 추론·코딩·컴퓨터 사용·리서치·문서 작업을 한 모델로 처리하려는 '만능 최상급'.",
@@ -8786,10 +8795,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.005724893700013805,
-    "cheap": 0.01877643433694215
+    "coding": 0.005415118178552391,
+    "cheap": 0.018282383434062157
    },
-   "spend_total": 0.07565698372481118,
+   "spend_total": 0.07259819031808737,
    "spend_slug": "openai/gpt-5-6-luna",
    "spend_key": "openai/gpt-5-6-luna",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $4 / 출력 $20 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8828,10 +8837,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.005724893700013805,
-    "cheap": 0.01877643433694215
+    "coding": 0.005415118178552391,
+    "cheap": 0.018282383434062157
    },
-   "spend_total": 0.07565698372481118,
+   "spend_total": 0.07259819031808737,
    "spend_slug": "openai/gpt-5-6-luna",
    "spend_key": "openai/gpt-5-6-luna",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $0.2 / 출력 $1.2 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 저렴한 가격이 장점입니다. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8870,10 +8879,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "cheap": 0.026373822108331755,
-    "research": 0.003637331292553673
+    "cheap": 0.023916800316975538,
+    "research": 0.003474587771832658
    },
-   "spend_total": 0.07017067057052467,
+   "spend_total": 0.0645562565302028,
    "spend_slug": "openai/gpt-5-6-sol",
    "spend_key": "openai/gpt-5-6-sol",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $4 / 출력 $20 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -8912,9 +8921,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.009069451874319541
+    "research": 0.00892672318225402
    },
-   "spend_total": 0.04565522310019504,
+   "spend_total": 0.0449901116840702,
    "spend_slug": "openai/gpt-5-6-terra",
    "spend_key": "openai/gpt-5-6-terra",
    "ko": "OpenAI의 범용 모델. 컨텍스트 1.1M 토큰. 입력 $2 / 출력 $12 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -9478,10 +9487,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.005724893700013805,
-    "cheap": 0.01877643433694215
+    "coding": 0.005415118178552391,
+    "cheap": 0.018282383434062157
    },
-   "spend_total": 0.07565698372481118,
+   "spend_total": 0.07259819031808737,
    "spend_slug": "openai/gpt-5-6-luna",
    "spend_key": "openai/gpt-5-6-luna",
    "ko": "OpenAI의 범용 모델. 컨텍스트 400K 토큰. 입력 $1.25 / 출력 $10 (100만 토큰당). 추론·비전·도구 호출 지원.",
@@ -9870,12 +9879,12 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.057625662033062776,
-    "research": 0.033174124394985446,
-    "agent": 0.03493507404643087,
-    "writing": 0.03091269736184719
+    "coding": 0.06226425608895325,
+    "research": 0.03820558350213605,
+    "agent": 0.051919752991228474,
+    "writing": 0.02959364884103768
    },
-   "spend_total": 0.7414721519507697,
+   "spend_total": 0.8410271929070035,
    "spend_slug": "anthropic/claude-fable-5-2",
    "spend_key": "anthropic/claude-fable-5-2",
    "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $8 / 출력 $40 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -9914,10 +9923,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "cheap": 0.012936855583296835,
-    "agent": 0.011994674635629416
+    "cheap": 0.012723279118209006,
+    "agent": 0.011629921775283679
    },
-   "spend_total": 0.057491165297054406,
+   "spend_total": 0.05630774062652116,
    "spend_slug": "anthropic/claude-haiku-5-5",
    "spend_key": "anthropic/claude-haiku-5-5",
    "ko": "빠른 응답·분류·가벼운 에이전트용 소형 모델. Claude 계열에서 가장 저렴.",
@@ -9962,13 +9971,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.07501743790361955,
-    "cheap": 0.11508234248287356,
-    "research": 0.12080714227506198,
-    "writing": 0.09651652415937743,
-    "agent": 0.1596507955405529
+    "coding": 0.07403283854711858,
+    "cheap": 0.11380136411618608,
+    "research": 0.11774258032118654,
+    "writing": 0.09678409553136538,
+    "agent": 0.1539547533944903
    },
-   "spend_total": 2.0534301141055096,
+   "spend_total": 2.018622339900867,
    "spend_slug": "anthropic/claude-sonnet-5-5",
    "spend_key": "anthropic/claude-sonnet-5-5",
    "ko": "일상 코딩·에이전트·지식 작업의 '가성비 주력'. Claude를 기본으로 쓸 때 가장 무난한 선택.",
@@ -10015,18 +10024,18 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.2768379276396439,
-    "cheap": 0.17090622773516212,
-    "research": 0.22674875010636023,
-    "writing": 0.20377518182488227,
-    "agent": 0.33734188903821466
+    "coding": 0.27590109855497297,
+    "cheap": 0.17161489336039173,
+    "research": 0.22736221276086058,
+    "writing": 0.2032634895585955,
+    "agent": 0.3379030799904153
    },
-   "spend_total": 4.85338211897073,
+   "spend_total": 4.860424223957098,
    "spend_slug": "anthropic/claude-opus-5-5",
    "spend_key": "anthropic/claude-opus-5-5",
-   "pop": 6440000000000,
+   "pop": 6360000000000,
    "pop_rank": 6,
-   "pop_chg": "-14%",
+   "pop_chg": "-12%",
    "pop_name": "Claude Opus 5.5",
    "ko": "장시간 이어지는 에이전트형 코딩과 전문 지식 작업에 맞춘 Opus. Fable보다 저렴하면서 코딩에 강함.",
    "ko_hl": "코딩",
@@ -10071,12 +10080,11 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.011558175103481748,
-    "writing": 0.011397801363271634,
-    "research": 0.011846794392368413,
-    "agent": 0.008344858475055852
+    "coding": 0.010750112973025652,
+    "writing": 0.010536301117186385,
+    "research": 0.010942665888848412
    },
-   "spend_total": 0.19377201216609494,
+   "spend_total": 0.159059005538802,
    "spend_slug": "anthropic/claude-fable-5-1",
    "spend_key": "anthropic/claude-fable-5-1",
    "ko": "긴 호흡의 에이전트 작업과 까다로운 추론을 위한 Claude 최상위 계열. 창작·분석에도 강점.",
@@ -10123,10 +10131,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.008253006864422681,
-    "writing": 0.009793685956718286
+    "coding": 0.008233719694379322,
+    "writing": 0.009093906731821625
    },
-   "spend_total": 0.08473967101842814,
+   "spend_total": 0.08261559713388467,
    "spend_slug": "anthropic/claude-opus-5",
    "spend_key": "anthropic/claude-opus-5",
    "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $5 / 출력 $25 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -10165,10 +10173,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.002646496072888998,
-    "agent": 0.03530066404808995
+    "agent": 0.03261594107574585
    },
-   "spend_total": 0.11223842628800218,
+   "spend_total": 0.08772692210170169,
    "spend_slug": "anthropic/claude-sonnet-5",
    "spend_key": "anthropic/claude-sonnet-5",
    "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -10207,12 +10214,12 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.057625662033062776,
-    "research": 0.033174124394985446,
-    "agent": 0.03493507404643087,
-    "writing": 0.03091269736184719
+    "coding": 0.06226425608895325,
+    "research": 0.03820558350213605,
+    "agent": 0.051919752991228474,
+    "writing": 0.02959364884103768
    },
-   "spend_total": 0.7414721519507697,
+   "spend_total": 0.8410271929070035,
    "spend_slug": "anthropic/claude-fable-5-2",
    "spend_key": "anthropic/claude-fable-5-2",
    "ko": "Anthropic의 범용 모델. 컨텍스트 1M 토큰. 입력 $10 / 출력 $50 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -10601,12 +10608,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.028658950764829286,
-    "writing": 0.008050048169776315,
-    "agent": 0.011972833712999766,
-    "research": 0.04046976756961513
+    "coding": 0.03374149734932486,
+    "writing": 0.008302228240276974,
+    "research": 0.05985633440913163,
+    "agent": 0.01672339215552655,
+    "cheap": 0.012702221218590881
    },
-   "spend_total": 0.45338242322513067,
+   "spend_total": 0.6244869414048887,
    "spend_slug": "google/gemini-4-neon",
    "spend_key": "google/gemini-4-neon",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $3 / 출력 $15 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -10645,9 +10653,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.01569491159350837
+    "research": 0.015115582344418095
    },
-   "spend_total": 0.07900749684425926,
+   "spend_total": 0.07618156449581033,
    "spend_slug": "google/gemini-4-hydrogen",
    "spend_key": "google/gemini-4-hydrogen",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $1.5 / 출력 $7.5 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -10686,13 +10694,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.022103442486473807,
-    "writing": 0.022936213537345294,
-    "research": 0.055749394972982556,
-    "cheap": 0.01228618776576101,
-    "agent": 0.007863527073586875
+    "coding": 0.022225945942804682,
+    "writing": 0.024295872562243928,
+    "research": 0.05580878486155707,
+    "cheap": 0.01177275236291282,
+    "agent": 0.009413552917408377
    },
-   "spend_total": 0.5430463579438045,
+   "spend_total": 0.5520145306967911,
    "spend_slug": "google/gemini-4-carbon",
    "spend_key": "google/gemini-4-carbon",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $10 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -10731,12 +10739,12 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "cheap": 0.03714825633844186,
-    "research": 0.021351427501255536,
-    "writing": 0.0837808133301182,
-    "agent": 0.04068844067640321
+    "cheap": 0.04821350636218834,
+    "research": 0.015463835727464466,
+    "writing": 0.08299728237359645,
+    "agent": 0.03788910799415907
    },
-   "spend_total": 0.536470774899906,
+   "spend_total": 0.5202775703711341,
    "spend_slug": "google/gemini-4-argon",
    "spend_key": "google/gemini-4-argon",
    "ko": "구글 최상위 추론 모델. 대규모 소프트웨어 엔지니어링·수학·과학·장시간 자율 작업에 특화.",
@@ -10783,12 +10791,12 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "cheap": 0.08459047973713212,
-    "writing": 0.09271691103847708,
-    "agent": 0.03619685084476084,
-    "research": 0.00508558092205218
+    "cheap": 0.08342937472423634,
+    "writing": 0.09259735517353689,
+    "agent": 0.035052861686040125,
+    "research": 0.005648714495649345
    },
-   "spend_total": 0.5622430440458076,
+   "spend_total": 0.560858510992605,
    "spend_slug": "google/gemini-3-8-flash",
    "spend_key": "google/gemini-3-8-flash",
    "ko": "Flash 계열 최상급. 장시간 소프트웨어 작업과 자율 에이전트를 낮은 가격에.",
@@ -10870,9 +10878,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "writing": 0.00922696424845173
+    "writing": 0.008987458479802396
    },
-   "spend_total": 0.027226055419537418,
+   "spend_total": 0.026594468895525986,
    "spend_slug": "google/gemini-3-7-flash",
    "spend_key": "google/gemini-3-7-flash",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.75 / 출력 $3.75 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -11023,9 +11031,9 @@
    "image_out": true,
    "video_out": false,
    "spend": {
-    "writing": 0.007622426865712792
+    "writing": 0.008097597983134216
    },
-   "spend_total": 0.022491537919645713,
+   "spend_total": 0.023961314333178618,
    "spend_slug": "google/gemini-3-1-flash-lite",
    "spend_key": "google/gemini-3-1-flash-lite",
    "ko": "Google의 범용 모델. 컨텍스트 66K 토큰. 입력 $0.25 / 출력 $1.5 (100만 토큰당). 추론·비전·PDF·이미지 생성·도구 호출 지원. 저렴한 가격이 장점입니다.",
@@ -11204,9 +11212,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "writing": 0.007622426865712792
+    "writing": 0.008097597983134216
    },
-   "spend_total": 0.022491537919645713,
+   "spend_total": 0.023961314333178618,
    "spend_slug": "google/gemini-3-1-flash-lite",
    "spend_key": "google/gemini-3-1-flash-lite",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.25 / 출력 $1.5 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 저렴한 가격이 장점입니다. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -11420,10 +11428,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.0074998462339256255,
-    "agent": 0.010408751616745184
+    "research": 0.007323707008083208,
+    "agent": 0.009793365494457392
    },
-   "spend_total": 0.06556854794047477,
+   "spend_total": 0.06325217583203017,
    "spend_slug": "google/gemini-3-1-pro-preview",
    "spend_key": "google/gemini-3-1-pro-preview",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $12 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -11462,10 +11470,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.0074998462339256255,
-    "agent": 0.010408751616745184
+    "research": 0.007323707008083208,
+    "agent": 0.009793365494457392
    },
-   "spend_total": 0.06556854794047477,
+   "spend_total": 0.06325217583203017,
    "spend_slug": "google/gemini-3-1-pro-preview",
    "spend_key": "google/gemini-3-1-pro-preview",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $2 / 출력 $12 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -11539,10 +11547,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "writing": 0.016123910815643204,
-    "agent": 0.03383753541061679
+    "writing": 0.016171574422018862,
+    "agent": 0.03298377682303837
    },
-   "spend_total": 0.1379988274209335,
+   "spend_total": 0.13656901893646486,
    "spend_slug": "google/gemini-3-flash-preview",
    "spend_key": "google/gemini-3-flash-preview",
    "ko": "Google의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.5 / 출력 $3 (100만 토큰당). 추론·비전·PDF·음성·도구 호출 지원. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -11861,10 +11869,10 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.006128168524271597,
-    "coding": 0.005258509777099875
+    "research": 0.0058893656942784235,
+    "coding": 0.005300638044677805
    },
-   "spend_total": 0.06642899146583836,
+   "spend_total": 0.06554407774920988,
    "spend_slug": "x-ai/grok-4-7",
    "spend_key": "x-ai/grok-4-7",
    "ko": "xAI 최전선 모델. 장시간 에이전트·코딩·지식 작업·시각 프로젝트를 함께 노림.",
@@ -11952,9 +11960,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.003327533241333633
+    "coding": 0.003218725058588182
    },
-   "spend_total": 0.02251471171719006,
+   "spend_total": 0.021776640280337264,
    "spend_slug": "x-ai/grok-4-5",
    "spend_key": "x-ai/grok-4-5",
    "ko": "xAI의 범용 모델. 컨텍스트 500K 토큰. 입력 $2 / 출력 $6 (100만 토큰당). 추론·비전·PDF·도구 호출 지원.",
@@ -12280,9 +12288,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "agent": 0.008412541188533412
+    "agent": 0.008453593394576471
    },
-   "spend_total": 0.022480303523471013,
+   "spend_total": 0.022737584897004573,
    "spend_slug": "meta/muse-wonder",
    "spend_key": "meta/muse-wonder",
    "ko": "Meta의 최전선 멀티모달 추론 모델. 개인·업무용 에이전트와 장시간 작업 지향.",
@@ -13226,11 +13234,11 @@
    "tier": ""
   },
   {
-   "key": "cohere/north-small-translate-1.0",
+   "key": "cohere/north-small-translate-09-2026",
    "provider": "cohere",
    "provider_label": "Cohere",
    "country": "CA",
-   "id": "north-small-translate-1.0",
+   "id": "north-small-translate-09-2026",
    "name": "North Small Translate",
    "family": "north-small",
    "description": "Open-weight translation model for more than 50 languages and locale variants",
@@ -13261,11 +13269,11 @@
    "tier": ""
   },
   {
-   "key": "cohere/north-small-translate-09-2026",
+   "key": "cohere/north-small-translate-1.0",
    "provider": "cohere",
    "provider_label": "Cohere",
    "country": "CA",
-   "id": "north-small-translate-09-2026",
+   "id": "north-small-translate-1.0",
    "name": "North Small Translate",
    "family": "north-small",
    "description": "Open-weight translation model for more than 50 languages and locale variants",
@@ -13855,15 +13863,14 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.006779658806665863,
-    "writing": 0.00829834382776313
+    "writing": 0.008489263063318778
    },
-   "spend_total": 0.05861447509947484,
+   "spend_total": 0.025120276548786097,
    "spend_slug": "deepseek/deepseek-v4-flash",
    "spend_key": "deepseek/deepseek-v4-flash",
-   "pop": 77200000000000,
+   "pop": 83100000000000,
    "pop_rank": 1,
-   "pop_chg": "+24%",
+   "pop_chg": "+33%",
    "pop_name": "DeepSeek V4.1 Flash 1017",
    "ko": "V4.1 Flash 업데이트판. 추론·코딩·에이전트·시각 이해를 크게 개선한 초저가 모델.",
    "ko_hl": "코딩",
@@ -13909,10 +13916,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.006779658806665863,
-    "writing": 0.00829834382776313
+    "writing": 0.008489263063318778
    },
-   "spend_total": 0.05861447509947484,
+   "spend_total": 0.025120276548786097,
    "spend_slug": "deepseek/deepseek-v4-flash",
    "spend_key": "deepseek/deepseek-v4-flash",
    "ko": "DeepSeek의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.15 / 출력 $0.6 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
@@ -13950,9 +13956,9 @@
    "audio_in": false,
    "image_out": false,
    "video_out": false,
-   "pop": 77200000000000,
+   "pop": 83100000000000,
    "pop_rank": 1,
-   "pop_chg": "+24%",
+   "pop_chg": "+33%",
    "pop_name": "DeepSeek V4.1 Flash 1017",
    "ko": "DeepSeek의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.15 / 출력 $0.6 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
    "ko_hl": "오픈웨이트",
@@ -13990,9 +13996,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "writing": 0.02295449407889351
+    "writing": 0.023354304778052132
    },
-   "spend_total": 0.06773195507116715,
+   "spend_total": 0.06910689305461995,
    "spend_slug": "deepseek/deepseek-v4-pro",
    "spend_key": "deepseek/deepseek-v4-pro",
    "ko": "100만 토큰 컨텍스트에 사고/비사고 모드를 모두 지원하는 DeepSeek 주력. 오픈웨이트.",
@@ -14039,18 +14045,18 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.12389258970077922,
-    "research": 0.07252298416765685,
-    "writing": 0.044099985299959496,
-    "agent": 0.03293897082386176,
-    "cheap": 0.04236504330159114
+    "coding": 0.1249666737640414,
+    "research": 0.07482944294517715,
+    "writing": 0.045096245822104745,
+    "agent": 0.03783123522542731,
+    "cheap": 0.04421219413482356
    },
-   "spend_total": 1.5048097943908385,
+   "spend_total": 1.5447743816180897,
    "spend_slug": "moonshotai/kimi-k3-1-pro",
    "spend_key": "moonshotai/kimi-k3-1-pro",
-   "pop": 4670000000000,
-   "pop_rank": 8,
-   "pop_chg": "+31%",
+   "pop": 4850000000000,
+   "pop_rank": 7,
+   "pop_chg": "+37%",
    "pop_name": "Kimi K3.1 Pro",
    "ko": "100만 컨텍스트·상시 추론의 멀티모달 Kimi. 코딩, 3D 제작, 금융 리서치를 겨냥.",
    "ko_hl": "코딩",
@@ -14096,13 +14102,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.12389258970077922,
-    "research": 0.07252298416765685,
-    "writing": 0.044099985299959496,
-    "agent": 0.03293897082386176,
-    "cheap": 0.04236504330159114
+    "coding": 0.1249666737640414,
+    "research": 0.07482944294517715,
+    "writing": 0.045096245822104745,
+    "agent": 0.03783123522542731,
+    "cheap": 0.04421219413482356
    },
-   "spend_total": 1.5048097943908385,
+   "spend_total": 1.5447743816180897,
    "spend_slug": "moonshotai/kimi-k3-1-pro",
    "spend_key": "moonshotai/kimi-k3-1-pro",
    "ko": "Moonshot (Kimi)의 범용 모델. 컨텍스트 1M 토큰. 입력 $4 / 출력 $20 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
@@ -14141,11 +14147,11 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.043709922747307,
-    "research": 0.030264172237860848,
-    "agent": 0.007297576812150204
+    "coding": 0.0423130183517097,
+    "research": 0.023485219527965284,
+    "agent": 0.006478318548826213
    },
-   "spend_total": 0.4675988759190344,
+   "spend_total": 0.42206210146964085,
    "spend_slug": "moonshotai/kimi-k3",
    "spend_key": "moonshotai/kimi-k3",
    "ko": "사고 강도를 켜고 끌 수 있는 100만 컨텍스트 멀티모달 모델. 장시간 에이전트 작업용.",
@@ -14641,9 +14647,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "writing": 0.011479409038618181
+    "writing": 0.011186463746622343
    },
-   "spend_total": 0.033872356958725716,
+   "spend_total": 0.03310146720889418,
    "spend_slug": "qwen/qwen3-6-35b-a3b",
    "spend_key": "qwen/qwen3-6-35b-a3b",
    "ko": "Alibaba (Qwen)의 범용 모델. 컨텍스트 262K 토큰. 입력 $0.375 / 출력 $2.25 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·도구 호출 지원.",
@@ -15312,13 +15318,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.08149636699446976,
-    "research": 0.034491976274568875,
-    "writing": 0.0333828281956766,
-    "agent": 0.03303638430318854,
-    "cheap": 0.01465031986757771
+    "coding": 0.0814234215384853,
+    "research": 0.028510195776812283,
+    "writing": 0.03356884890997666,
+    "agent": 0.03862896151181185,
+    "cheap": 0.013530943796367672
    },
-   "spend_total": 0.9406425359118881,
+   "spend_total": 0.9244167019269109,
    "spend_slug": "z-ai/glm-5-3",
    "spend_key": "z-ai/glm-5-3",
    "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.29943 / 출력 $1.04801 (100만 토큰당). 추론·비전·PDF·도구 호출 지원. 저렴한 가격이 장점입니다. 100만 토큰 문서를 통째로 넣을 수 있습니다.",
@@ -15357,13 +15363,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.08149636699446976,
-    "research": 0.034491976274568875,
-    "writing": 0.0333828281956766,
-    "agent": 0.03303638430318854,
-    "cheap": 0.01465031986757771
+    "coding": 0.0814234215384853,
+    "research": 0.028510195776812283,
+    "writing": 0.03356884890997666,
+    "agent": 0.03862896151181185,
+    "cheap": 0.013530943796367672
    },
-   "spend_total": 0.9406425359118881,
+   "spend_total": 0.9244167019269109,
    "spend_slug": "z-ai/glm-5-3",
    "spend_key": "z-ai/glm-5-3",
    "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 1M 토큰. 입력 $0.29879 / 출력 $1.04577 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·비전·PDF·도구 호출 지원.",
@@ -15402,18 +15408,18 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "research": 0.028787515396836317,
-    "cheap": 0.03142943365504618,
-    "writing": 0.009787534340801915,
-    "coding": 0.008064189095588361,
-    "agent": 0.0175960723307092
+    "research": 0.023816611425113886,
+    "cheap": 0.016832002063772552,
+    "writing": 0.009944589223459291,
+    "coding": 0.007669753903730339,
+    "agent": 0.018047448769576768
    },
-   "spend_total": 0.33718157947488425,
+   "spend_total": 0.28300226385237964,
    "spend_slug": "z-ai/glm-5-3-flash",
    "spend_key": "z-ai/glm-5-3-flash",
-   "pop": 13500000000000,
+   "pop": 13200000000000,
    "pop_rank": 4,
-   "pop_chg": "+27%",
+   "pop_chg": "+22%",
    "pop_name": "GLM 5.3 Flash",
    "ko": "GLM-5.3 계열의 저가·고속 버전. 코딩과 에이전트를 대량으로 돌릴 때.",
    "ko_hl": "코딩",
@@ -15458,18 +15464,18 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.08149636699446976,
-    "research": 0.034491976274568875,
-    "writing": 0.0333828281956766,
-    "agent": 0.03303638430318854,
-    "cheap": 0.01465031986757771
+    "coding": 0.0814234215384853,
+    "research": 0.028510195776812283,
+    "writing": 0.03356884890997666,
+    "agent": 0.03862896151181185,
+    "cheap": 0.013530943796367672
    },
-   "spend_total": 0.9406425359118881,
+   "spend_total": 0.9244167019269109,
    "spend_slug": "z-ai/glm-5-3",
    "spend_key": "z-ai/glm-5-3",
-   "pop": 4070000000000.0005,
+   "pop": 4160000000000,
    "pop_rank": 10,
-   "pop_chg": "+22%",
+   "pop_chg": "+23%",
    "pop_name": "GLM 5.3",
    "ko": "장시간 코딩·에이전트·복잡한 프로젝트 수행을 겨냥한 GLM 플래그십. 오픈웨이트.",
    "ko_hl": "장시간 코딩",
@@ -15514,9 +15520,9 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "writing": 0.016989414232161333
+    "writing": 0.01708162657993897
    },
-   "spend_total": 0.050130760342755,
+   "spend_total": 0.05054563398385401,
    "spend_slug": "z-ai/glm-5-2",
    "spend_key": "z-ai/glm-5-2",
    "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 1M 토큰. 입력 $1.19516 / 출력 $4.18306 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·도구 호출 지원.",
@@ -15632,13 +15638,13 @@
    "image_out": false,
    "video_out": false,
    "spend": {
-    "coding": 0.08149636699446976,
-    "research": 0.034491976274568875,
-    "writing": 0.0333828281956766,
-    "agent": 0.03303638430318854,
-    "cheap": 0.01465031986757771
+    "coding": 0.0814234215384853,
+    "research": 0.028510195776812283,
+    "writing": 0.03356884890997666,
+    "agent": 0.03862896151181185,
+    "cheap": 0.013530943796367672
    },
-   "spend_total": 0.9406425359118881,
+   "spend_total": 0.9244167019269109,
    "spend_slug": "z-ai/glm-5-3",
    "spend_key": "z-ai/glm-5-3",
    "ko": "Zhipu (GLM)의 범용 모델. 컨텍스트 205K 토큰. 입력 $0.59758 / 출력 $2.68911 (100만 토큰당). 오픈웨이트로 자체 서버 설치가 가능합니다. 추론·도구 호출 지원.",
@@ -16026,9 +16032,9 @@
    "audio_in": false,
    "image_out": false,
    "video_out": false,
-   "pop": 4760000000000,
-   "pop_rank": 7,
-   "pop_chg": "+21%",
+   "pop": 4730000000000,
+   "pop_rank": 8,
+   "pop_chg": "+15%",
    "pop_name": "MiniMax M3.1 Flash",
    "ko": "100만 컨텍스트에 사고 깊이를 조절할 수 있는 멀티모달 코딩 모델. 오픈웨이트.",
    "ko_hl": "오픈웨이트",
@@ -16343,135 +16349,135 @@
    {
     "slug": "claude-opus-5.5-20260921",
     "name": "Claude Opus 5.5",
-    "share": 0.2768379276396439
+    "share": 0.27590109855497297
    },
    {
     "slug": "kimi-k3.1-pro-20261023",
     "name": "Kimi K3.1 Pro",
-    "share": 0.12389258970077922
+    "share": 0.1249666737640414
    },
    {
     "slug": "deepseek-v4.1-flash-20261017",
     "name": "DeepSeek V4.1 Flash",
-    "share": 0.09631316443049491
+    "share": 0.09728558070263449
    },
    {
     "slug": "glm-5.3-20260816",
     "name": "GLM 5.3",
-    "share": 0.08149636699446976
+    "share": 0.0814234215384853
    },
    {
     "slug": "claude-sonnet-5.5-20260928",
     "name": "Claude Sonnet 5.5",
-    "share": 0.07501743790361955
+    "share": 0.07403283854711858
    }
   ],
   "cheap": [
    {
     "slug": "claude-opus-5.5-20260921",
     "name": "Claude Opus 5.5",
-    "share": 0.17090622773516215
+    "share": 0.17161489336039176
    },
    {
     "slug": "claude-sonnet-5.5-20260928",
     "name": "Claude Sonnet 5.5",
-    "share": 0.11508234248287358
+    "share": 0.11380136411618609
    },
    {
     "slug": "gpt-6.1-sol-20260929",
     "name": "GPT 6.1 Sol",
-    "share": 0.10509298397681813
+    "share": 0.10149835457067242
    },
    {
     "slug": "deepseek-v4.1-flash-20261017",
     "name": "DeepSeek V4.1 Flash",
-    "share": 0.09122430554142442
+    "share": 0.09380367358685789
    },
    {
     "slug": "gemini-3.8-flash-20260902",
     "name": "Gemini 3.8 Flash",
-    "share": 0.08459047973713213
+    "share": 0.08342937472423635
    }
   ],
   "research": [
    {
     "slug": "claude-opus-5.5-20260921",
     "name": "Claude Opus 5.5",
-    "share": 0.2267487501063603
+    "share": 0.22736221276086058
    },
    {
     "slug": "claude-sonnet-5.5-20260928",
     "name": "Claude Sonnet 5.5",
-    "share": 0.12080714227506202
+    "share": 0.11774258032118654
    },
    {
     "slug": "deepseek-v4.1-flash-20261017",
     "name": "DeepSeek V4.1 Flash",
-    "share": 0.08319685387306734
+    "share": 0.08646520206904583
    },
    {
     "slug": "kimi-k3.1-pro-20261023",
     "name": "Kimi K3.1 Pro",
-    "share": 0.07252298416765687
+    "share": 0.07482944294517715
    },
    {
     "slug": "gpt-6.1-sol-20260929",
     "name": "GPT 6.1 Sol",
-    "share": 0.06849419922303006
+    "share": 0.06563082460547469
    }
   ],
   "writing": [
    {
     "slug": "claude-opus-5.5-20260921",
     "name": "Claude Opus 5.5",
-    "share": 0.2037751818248823
+    "share": 0.20326348955859555
    },
    {
     "slug": "claude-sonnet-5.5-20260928",
     "name": "Claude Sonnet 5.5",
-    "share": 0.09651652415937746
+    "share": 0.09678409553136541
    },
    {
     "slug": "gemini-3.8-flash-20260902",
     "name": "Gemini 3.8 Flash",
-    "share": 0.0927169110384771
+    "share": 0.09259735517353691
    },
    {
     "slug": "gemini-4-argon-20261013",
     "name": "Gemini 4 Argon",
-    "share": 0.08378081333011822
+    "share": 0.08299728237359648
    },
    {
     "slug": "deepseek-v4.1-flash-20261017",
     "name": "DeepSeek V4.1 Flash",
-    "share": 0.06757129918649965
+    "share": 0.07297139783258394
    }
   ],
   "agent": [
    {
     "slug": "claude-opus-5.5-20260921",
     "name": "Claude Opus 5.5",
-    "share": 0.33734188903821466
+    "share": 0.3379030799904153
    },
    {
     "slug": "claude-sonnet-5.5-20260928",
     "name": "Claude Sonnet 5.5",
-    "share": 0.1596507955405529
+    "share": 0.1539547533944903
    },
    {
     "slug": "deepseek-v4.1-flash-20261017",
     "name": "DeepSeek V4.1 Flash",
-    "share": 0.07448776281707901
+    "share": 0.07278829747207408
    },
    {
-    "slug": "gemini-4-argon-20261013",
-    "name": "Gemini 4 Argon",
-    "share": 0.04068844067640321
+    "slug": "claude-fable-5.2-20261109",
+    "name": "Claude Fable 5.2",
+    "share": 0.051919752991228474
    },
    {
-    "slug": "gemini-3.8-flash-20260902",
-    "name": "Gemini 3.8 Flash",
-    "share": 0.03619685084476084
+    "slug": "glm-5.3-20260816",
+    "name": "GLM 5.3",
+    "share": 0.03862896151181185
    }
   ]
  },
